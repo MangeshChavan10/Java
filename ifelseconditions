@@ -1,0 +1,25 @@
+// Take 3 numbers input and tell if they can be the sides of a triangle
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Number 1:-");
+        int a = sc.nextInt();
+        System.out.println("Enter Number 2:-");
+        int b = sc.nextInt();
+        System.out.println("Enter Number 3:-");
+        int c = sc.nextInt();
+        if( a+b>c && b+c>a && a+c>b){
+            System.out.println("Valide Triangle");
+        } else {
+            System.out.println("Invalid Triangle");
+        }
+         Take a number and tell if it is divisible by 5 or 3 but not divisible by 15
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        if (n % 5 == 0 || n % 3 == 0) {
+            if (n % 15 != 0) {
+                System.out.println("Divisible by 5 or 3 but not 15");
+            } else {
+                System.out.println("Not matching the conditions");
+            }
+        } else {
+            System.out.println("Not matching the condition");
+        }
