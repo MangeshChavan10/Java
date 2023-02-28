@@ -23,3 +23,17 @@
         } else {
             System.out.println("Not matching the condition");
         }
+        //Find Your Lucky Number
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the digit1");
+        int a = sc.nextInt();
+        System.out.println("Enter the digit2");
+        int b = sc.nextInt();
+        System.out.println("Enter the digit3");
+        int c = sc.nextInt();
+        System.out.println("Enter the digit4");
+        int d = sc.nextInt();
+        if (a+b == c+d) {
+            System.out.println("Therefore, "+a+b+c+d+" is a lucky number");
+        } else {
+            System.out.println("It isn't a Lucky Number");
