@@ -11,7 +11,10 @@
         } else {
             System.out.println("Invalid Triangle");
         }
-         Take a number and tell if it is divisible by 5 or 3 but not divisible by 15
+        
+        
+        
+       //  Take a number and tell if it is divisible by 5 or 3 but not divisible by 15
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         if (n % 5 == 0 || n % 3 == 0) {
@@ -23,6 +26,8 @@
         } else {
             System.out.println("Not matching the condition");
         }
+        
+        
         //Find Your Lucky Number
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the digit1");
@@ -37,3 +42,46 @@
             System.out.println("Therefore, "+a+b+c+d+" is a lucky number");
         } else {
             System.out.println("It isn't a Lucky Number");
+            
+            
+             Write the youngest of them
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Age of Alex is: - ");
+        int a = sc.nextInt();
+        System.out.println("Age of Ross is: - ");
+        int b = sc.nextInt();
+        System.out.println("Age of Mangesh is: - ");
+        int c = sc.nextInt();
+
+        if (a<b) {
+            if (a<c) {
+                System.out.println("Alex is youngest ");
+            }else {
+                System.out.println("Mangesh is youngest");
+            }
+        }else {
+            if (b<c) {
+                System.out.println("Ross is youngest");
+            }else {
+                System.out.println("Mangesh is youngest");
+            }
+        }
+        Without nested
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Age of Alex is: - ");
+        int a = sc.nextInt();
+        System.out.println("Age of Ross is: - ");
+        int b = sc.nextInt();
+        System.out.println("Age of Mangesh is: - ");
+        int c = sc.nextInt();
+
+         if(a<c && a<b) {
+             System.out.println("Alex is youngest");
+         } else if (b<a && b<c) {
+             System.out.println("Ross is youngest");
+         }else {
+             System.out.println("Mangesh is youngest");
+    }
+            
+            
+            
