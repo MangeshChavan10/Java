@@ -1,0 +1,19 @@
+ // Write a program which will determine whether a point lies inside the circle, on the circle or outside the circle
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the age");
+        int age = sc.nextInt();
+        switch(age) {
+            case 18:
+                System.out.println("You are a Adult");
+                break;
+            case 21:
+                System.out.println("You are going to join a Job!");
+                break;
+            case 60:
+                System.out.println("You are going to retire");
+                break;
+            case 80:
+                System.out.println("You Die");
+                break;
+            default:
+                System.out.println("Enjoy Your Life ");
