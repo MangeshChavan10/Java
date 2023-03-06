@@ -1,0 +1,19 @@
+  int i = 100;
+   while(i<=200) {
+       System.out.println(i);
+       i++;
+   }
+        System.out.println("Finish running while loop");
+
+       int a = 1;
+       do{
+           System.out.println(a);
+           a++;
+       }while(a<=10);
+
+       for (int i = 10;i<=20;i++){
+           System.out.println(i);
+       }
+
+    for(int i = 10;i>0;i--){
+        System.out.println(i);
