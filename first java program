@@ -1,0 +1,70 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args){
+                 //TYPECASTING
+
+//            int num = (int) (34.567f);
+//        char  num = 64;
+//        System.out.println(num);
+
+        // Degree to farenheit conversion
+     
+     // Scanner sc = new Scanner(System.in);
+//        int degree = sc.nextInt();
+//        int farenheit =   (degree * 9/5) + 32;
+//        System.out.println(farenheit + "°F");
+
+        //EVEn oR ODd
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter your Number:- ");
+//        int num = sc.nextInt();
+//        if(num%2 == 0) {
+//            System.out.println("Even No.");
+//        }else {
+//            System.out.println("Odd No.");
+//        }
+
+        //Take a input and print a greeting message for that particulat name
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter your name:-");
+//        String name = sc.next();
+//        System.out.println("Hello " + name + "!");
+
+        //Take input principle, time and rate from the user and find simple interest
+
+//         Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter principle:-");
+//        int P = sc.nextInt();
+//         System.out.println("Enter time:-");
+//        int T = sc.nextInt();
+//         System.out.println("Enter rate:-");
+//           int R = sc.nextInt();
+//           int SI = P*R*T;
+//
+//        System.out.println(SI);
+
+
+        //Take 2 numbers as input and print the largest
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter Num1:");
+//        int num1 = sc.nextInt();
+//        System.out.println("Enter Num2:");
+//        int num2 = sc.nextInt();
+//
+//        if(num1>num2) {
+//            System.out.println("Num1 is greater");
+//        }else {
+//            System.out.println("NUm2 is greater");
+//        }
+
+
+        // Input currency in rupees and output in USD
+
+//        Scanner sc = new Scanner(System.in);
+//        float rupees = sc.nextFloat();
+//        float dollar = (rupees / 82.02f);
+//        System.out.println(dollar + "$");
