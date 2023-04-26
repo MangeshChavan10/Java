@@ -13,3 +13,20 @@
         }else {
             System.out.println("c is largest");
         }
+
+ Scanner sc = new Scanner(System.in);
+
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+//(Method 2)
+//        int max = a;
+//        if(b > max) {
+//            max = b;
+//        }else if (c > max) {
+//            max = c;
+//        }
+//        System.out.println(max);
+        //(Method 3)
+        int max = Math.max(c,Math.max(a,b));
+        System.out.println(max);
