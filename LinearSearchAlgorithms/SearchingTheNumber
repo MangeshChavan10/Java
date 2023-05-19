@@ -1,0 +1,32 @@
+ int[] nums = {23, 14, 15, 67, 89, 67, 78};
+        int target = 67;
+        int ans = linearSearch2(nums, target);
+        System.out.println(ans );
+    }
+
+    static int linearSearch(int[] arr, int target) {
+        if (arr.length == 0) {
+            return -1;
+        }
+        for (int index = 0; index < arr.length; index++) {
+            int element = arr[index];
+            if (element == target) {
+                return index;
+            }
+        }
+        return -1;
+    }
+    static int linearSearch2(int[] arr, int target) {
+        if (arr.length == 0) {
+            return -1;
+        }
+        for (int index = 0; index < arr.length; index++) {
+            int element = arr[index];
+            if (element == target) {
+                return element;
+            }
+        }
+        return -1;
+
+    }
+    }
